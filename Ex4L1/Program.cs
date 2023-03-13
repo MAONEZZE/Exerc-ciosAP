@@ -8,8 +8,10 @@
 
             Console.Write("Digite a quilometragem Inicial: ");
             kmI = Convert.ToDouble(Console.ReadLine());
+            
             Console.Write("Digite a quilometragem Final: ");
             kmF = Convert.ToDouble(Console.ReadLine());
+            
             Console.Write("Digite o consumo de combustivel: ");
             consumo = Convert.ToDouble(Console.ReadLine());
 
