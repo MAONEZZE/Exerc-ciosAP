@@ -13,7 +13,7 @@
             Console.Write("Digite o consumo de combustivel: ");
             consumo = Convert.ToDouble(Console.ReadLine());
 
-            consumoKm = (kmF - kmI) / consumo;
+            consumoKm = consumo / (kmF - kmI);
 
             Console.WriteLine("Consumo de combustivel por km: "+consumoKm);
         }
