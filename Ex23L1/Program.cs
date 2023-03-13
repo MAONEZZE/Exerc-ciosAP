@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            for(int i = 1; i < 200; i = i + 2)
+            for(int i = 101; i < 200; i = i + 2)
             {
                 Console.WriteLine(i);
             }
